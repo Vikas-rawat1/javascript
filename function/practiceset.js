@@ -56,3 +56,13 @@
 // 	return 1/2*base*height
 // }
 // console.log(triArea(2,3))
+
+// ⭐⭐Create a function that takes the age in years and returns the age in days.⭐⭐
+//  👀👀365 day * age
+function calcAge(age) {
+	return age*365
+}
+
+console.log(calcAge(65))
+console.log(calcAge(0))
+console.log(calcAge(20))

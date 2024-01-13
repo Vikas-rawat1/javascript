@@ -36,3 +36,6 @@
 //   }
 // //   console.log(...calculateCartPrice(100 + 200 + 23323));
 //   console.log( calculateCartPrice(100 + 200 + 23323));
+
+
+
