@@ -1,4 +1,4 @@
-// PRACTICE SET 
+// PRACTICE SET
 
 // ⭐⭐ DISPLAY THE USER NAME ⭐⭐
 // function user(username="UserLogin"){
@@ -22,14 +22,12 @@
 // console.log(convert(10)+" sec")
 // console.log(result + "sec")
 
-
-// ⭐⭐CALCULATE THE POWER ⭐⭐ 
+// ⭐⭐CALCULATE THE POWER ⭐⭐
 //👀👀 FORMULA===> P=V*I  where p=power , v=voltage, i=current/👀👀
 // function circuitPower(voltage, current) {
 // 	return voltage * current
 // }
 // console.log(circuitPower(230,34))
-
 
 //⭐⭐ finds the maximum range of a triangle's third edge, where the side lengths are all integers.⭐⭐
 // 👀👀 FORMULA===>  (side1 + side2) - 1
@@ -48,7 +46,6 @@
 // console.log(lessThanOrEqualToZero(0))
 // console.log(lessThanOrEqualToZero(-2))
 
-
 // ⭐⭐Write a function that takes the base and height of a triangle and return its area.⭐⭐
 // 👀👀 FORMULA===>  1/2*b*h
 
@@ -59,10 +56,10 @@
 
 // ⭐⭐Create a function that takes the age in years and returns the age in days.⭐⭐
 //  👀👀365 day * age
-function calcAge(age) {
-	return age*365
-}
+// function calcAge(age) {
+//   return age * 365;
+// }
 
-console.log(calcAge(65))
-console.log(calcAge(0))
-console.log(calcAge(20))
+// console.log(calcAge(65));
+// console.log(calcAge(0));
+// console.log(calcAge(20));
