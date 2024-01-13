@@ -63,3 +63,17 @@
 // console.log(calcAge(65));
 // console.log(calcAge(0));
 // console.log(calcAge(20));
+
+
+// ⭐⭐ A student learning JavaScript was trying to make a function. 
+// His code should concatenate a passed string name with string "Edabit" and store it in a 
+// variable called result. He needs your help to fix this code. ⭐⭐
+
+// function nameString(name){
+// 	var b = "Edabit"
+// 	var result = name + b
+//   	return result
+// }
+// console.log(nameString("Mubashir"))
+// console.log(nameString("Matt"))
+// console.log(nameString("javaScript"))
