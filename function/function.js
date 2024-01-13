@@ -31,10 +31,35 @@
 
 // ... spread operator or rest operator depends on their situation 🐱‍🚀🐱‍🚀🐱‍🚀🐱‍🚀🐱‍🚀🐱‍🚀🐱‍🚀🐱‍🚀🐱‍🚀 MULTIPLE VALUE
 
-function calculateCartPrice(...price) {
-    return price;
-  }
-//   console.log(...calculateCartPrice(100 + 200 + 23323));
-  console.log( calculateCartPrice(100 + 200 + 23323));
+// function calculateCartPrice(...price) {
+//     return price;
+//   }
+// //   console.log(...calculateCartPrice(100 + 200 + 23323));
+//   console.log( calculateCartPrice(100 + 200 + 23323));
 
   
+
+
+// PRACTICE SET 
+// function user(username="UserLogin"){
+//   if(!username){
+//   return'Hello'
+//   }
+//   else{
+//     return `${username} hello`
+//   }
+// }
+
+// console.log(user());
+
+// CONVERT MINUTES INTO SECONDS 
+function convert(minutes) {
+	return minutes*60
+}
+
+console.log(convert(1)+" sec")
+console.log(convert(4)+" sec")
+console.log(convert(10)+" sec")
+
+
+// console.log(result + "sec")
