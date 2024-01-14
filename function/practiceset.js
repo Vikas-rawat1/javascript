@@ -77,3 +77,84 @@
 // console.log(nameString("Mubashir"))
 // console.log(nameString("Matt"))
 // console.log(nameString("javaScript"))
+
+
+// ⭐⭐Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+// function addition(num){
+//     return num+1;
+// }
+// console.log(addition(3))
+// console.log(addition(-2))
+
+
+//  ⭐⭐CThere is a single operator in JavaScript, capable of providing the remainder 
+// of a division operation. Two numbers are passed as parameters. The first parameter divided
+//  by the second parameter will have a remainder, possibly zero.
+
+// function remainder(x,y){
+//     return x%y;
+// }
+// console.log(remainder(1,3))
+
+//  ⭐⭐You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, 
+// find the final points for the team and return that value.
+
+// function points(twoPointers, threePointers) {
+// 	return twoPointers*2 +threePointers*3
+// }
+// console.log(points(1,1))
+// console.log(points(1,2))
+
+// ⭐⭐ Mubashir created an infinite loop! Help him by fixing the code in the code tab to pass this challenge.
+// function printArray(number) {
+//     var newArray = [];
+  
+//     for(var i = 1; i <= number;i++) {
+//       newArray.push(i);
+//     }
+  
+//     return newArray;
+//   }
+//   console.log(printArray(16))
+
+
+// function print(num){
+//     var array=[]
+
+//     for(let i=1;i<=num;i++){
+//       array.push(i)
+//     }
+//     return array
+// }
+
+// console.log(typeof print(10))
+
+
+// ⭐⭐ Write a function that converts hours into seconds.
+// function hours(convertToSec){
+//     return convertToSec*3600
+// }
+
+// console.log(hours(2))
+// console.log(hours(10))
+// console.log(hours(24))
+
+// ⭐⭐Create a function that returns true when num1 is equal to num2; otherwise return false.
+
+// function compareNum(num1,num2){
+//     return num1===num2?true:false
+// }
+// console.log(compareNum(4,8))
+
+// ⭐⭐Create a function that takes an array containing only numbers and return the first element.
+
+function getArray( num){
+ if(num.length > 0){
+    return num[0]
+ }
+ else{
+    return undefined
+ }
+}
+const newArray=[3,4,5,6]
+console.log(getArray(newArray))
