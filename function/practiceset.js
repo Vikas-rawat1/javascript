@@ -181,6 +181,26 @@
 // console.log(returnIndex(newArray))
 
 
+//⭐⭐Create a function that takes length and width and finds the perimeter of a rectangle.
+
+// FORMULA -- P=(L+W)2
+
+// function parameterOfrectangle(l,w){
+//   return (l+w)*2;
+
+// }
+
+// console.log(parameterOfrectangle(6,7))
+// console.log(parameterOfrectangle(20,10))
+
+//⭐⭐Write a function that returns the string "something" joined
+//  with a space " " and the given argument a.
 
 
+// function  somethingReturn(a){
+//    return 'something ' + a
+// }
 
+// console.log(somethingReturn('is very Unique'))
+// console.log(somethingReturn('Bob James'))
+// console.log(somethingReturn('is Good'))
