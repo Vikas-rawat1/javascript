@@ -148,13 +148,39 @@
 
 // ⭐⭐Create a function that takes an array containing only numbers and return the first element.
 
-function getArray( num){
- if(num.length > 0){
-    return num[0]
- }
- else{
-    return undefined
- }
-}
-const newArray=[3,4,5,6]
-console.log(getArray(newArray))
+// function getArray( num){
+//  if(num.length > 0){
+//     return num[0]
+//  }
+//  else{
+//     return undefined
+//  }
+// }
+// const newArray=[3,4,5,6]
+// console.log(getArray(newArray))
+
+
+// function arr(num){
+//    if(num.length=0){
+//       return num[0]
+//    }
+//    else{
+//       return 'undefined'
+//    }
+// }
+// const newArray =[1,2,3,4,5,6,7,8,9]
+// console.log(arr(newArray))
+
+
+//⭐⭐ PERFORMING THROUGH TERNIARY OPERATOR 
+
+// function returnIndex(num){
+// return num.length>0?num[0]:'sorry';
+// }
+// const newArray=[3,34,56,7]
+// console.log(returnIndex(newArray))
+
+
+
+
+
