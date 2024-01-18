@@ -12,9 +12,12 @@
 
 function sumOfAll(num1,num2){
     // if(num1+num2<=100){
-        return num1+num2<100?
+        return num1+num2<100?true:false
 
     // }
 }
 
 console.log(sumOfAll(1,2))
+console.log(sumOfAll(50,34))
+console.log(sumOfAll(20+30))
+console.log(sumOfAll(50+50))

@@ -64,9 +64,8 @@
 // console.log(calcAge(0));
 // console.log(calcAge(20));
 
-
-// ⭐⭐ A student learning JavaScript was trying to make a function. 
-// His code should concatenate a passed string name with string "Edabit" and store it in a 
+// ⭐⭐ A student learning JavaScript was trying to make a function.
+// His code should concatenate a passed string name with string "Edabit" and store it in a
 // variable called result. He needs your help to fix this code. ⭐⭐
 
 // function nameString(name){
@@ -78,7 +77,6 @@
 // console.log(nameString("Matt"))
 // console.log(nameString("javaScript"))
 
-
 // ⭐⭐Create a function that takes a number as an argument, increments the number by +1 and returns the result.
 // function addition(num){
 //     return num+1;
@@ -86,8 +84,7 @@
 // console.log(addition(3))
 // console.log(addition(-2))
 
-
-//  ⭐⭐CThere is a single operator in JavaScript, capable of providing the remainder 
+//  ⭐⭐CThere is a single operator in JavaScript, capable of providing the remainder
 // of a division operation. Two numbers are passed as parameters. The first parameter divided
 //  by the second parameter will have a remainder, possibly zero.
 
@@ -96,7 +93,7 @@
 // }
 // console.log(remainder(1,3))
 
-//  ⭐⭐You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, 
+//  ⭐⭐You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored,
 // find the final points for the team and return that value.
 
 // function points(twoPointers, threePointers) {
@@ -108,15 +105,14 @@
 // ⭐⭐ Mubashir created an infinite loop! Help him by fixing the code in the code tab to pass this challenge.
 // function printArray(number) {
 //     var newArray = [];
-  
+
 //     for(var i = 1; i <= number;i++) {
 //       newArray.push(i);
 //     }
-  
+
 //     return newArray;
 //   }
 //   console.log(printArray(16))
-
 
 // function print(num){
 //     var array=[]
@@ -128,7 +124,6 @@
 // }
 
 // console.log(typeof print(10))
-
 
 // ⭐⭐ Write a function that converts hours into seconds.
 // function hours(convertToSec){
@@ -159,7 +154,6 @@
 // const newArray=[3,4,5,6]
 // console.log(getArray(newArray))
 
-
 // function arr(num){
 //    if(num.length=0){
 //       return num[0]
@@ -171,15 +165,13 @@
 // const newArray =[1,2,3,4,5,6,7,8,9]
 // console.log(arr(newArray))
 
-
-//⭐⭐ PERFORMING THROUGH TERNIARY OPERATOR 
+//⭐⭐ PERFORMING THROUGH TERNIARY OPERATOR
 
 // function returnIndex(num){
 // return num.length>0?num[0]:'sorry';
 // }
 // const newArray=[3,34,56,7]
 // console.log(returnIndex(newArray))
-
 
 //⭐⭐Create a function that takes length and width and finds the perimeter of a rectangle.
 
@@ -196,7 +188,6 @@
 //⭐⭐Write a function that returns the string "something" joined
 //  with a space " " and the given argument a.
 
-
 // function  somethingReturn(a){
 //    return 'something ' + a
 // }
@@ -205,9 +196,7 @@
 // console.log(somethingReturn('Bob James'))
 // console.log(somethingReturn('is Good'))
 
-
-
-// IIFE 
+// IIFE
 // ((name=prompt) =>{
 // console.log(`Hello ${name}`)
 // })(prompt("Enter your good name"));
@@ -215,5 +204,46 @@
 // ((name) => {
 //     console.log(`Hello ${name}`);
 //   })(prompt("Enter your name"));
- 
-  
+
+// SUM OF POLYGON
+
+// function sumOfPolygon(num){
+// return (num-2)*180;
+// }
+// console.log(sumOfPolygon(1))
+
+// Create a function that takes an array containing only numbers and return the first element.
+
+// function arr(num){
+// if(num.length>0){
+//     return num[0]
+// }
+// else{
+//     console.log('Error')
+// }
+// }
+// const newArray=[1,2,3,4,5,6,7,8]
+// console.log(arr(newArray))
+
+// function arr(num){
+//  return num.length>0?num[0]:'error'
+// }
+// console.log(arr([1,2,3,4]))
+
+//⭐⭐ Mubashir wants to swap two given numbers!
+
+// It is not returning the right values. Can you help him fix it?
+
+//🧠🧠 WITH 3 VARIABLE
+// function swap(a,b){
+//     let temp=a
+//   a=b,b=temp
+//     return [a,b]
+//     }
+
+//🧠🧠 WITH NO VARIABLE
+
+// function swap(a,b){
+//     return [b,a]
+// }
+//     console.log(swap(100,200))
