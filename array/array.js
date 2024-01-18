@@ -36,8 +36,15 @@
 // console.log("B", names)
 // console.log(newName);
 
-// SPLICE :- it will remove that element from that index and manipulate them and give us a new aray 
+// SPLICE :- it will remove that element from that index and also further of it  and manipulate them and give us a new aray 
 const names = ['ram', 'shyam', 'bharat', 'shatrugan']
-const newName = names.splice(1, 2)
+const newName = names.splice(2, 2)
 console.log("c", names)
 console.log(newName)
+
+
+//⭐⭐ DELTE A ELEMENT FROM ARRAY 
+// const numbers=[10,20,30]
+// delete numbers[1]
+
+// console.log(numbers)

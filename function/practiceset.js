@@ -247,3 +247,43 @@
 //     return [b,a]
 // }
 //     console.log(swap(100,200))
+
+//⭐⭐ DELTE A ELEMENT FROM ARRAY
+
+// const numbers=[10,20,30]
+// delete numbers[1]
+
+// console.log(numbers)
+
+// function square(b) {
+// 	return b*b
+// }
+// console.log(square(9))
+
+//⭐⭐ JavaScript has a logical operator &&. The && operator takes two boolean values, and returns true if both values are true.
+
+// ARROW FUNCTION 
+// check=(a,b)=>a&&b;
+
+//  function check(a,b){
+//     return  a&&b;
+// }
+
+// console.log(check(true,false))
+// console.log(check(true,true))
+// console.log(check(false,false))
+// console.log(check(false,true))
+
+// ⭐⭐Create a function that takes the number of wins, draws and losses and calculates the number of points a football team has obtained so far.
+
+// wins get 3 points
+// draws get 1 point
+// losses get 0 points
+
+// function football(wins,draws,losses){
+//     return wins*3+draws*1+losses*0;
+// }
+
+// console.log(football(3,4,2))
+// console.log(football(5,0,2))
+// console.log(football(0,0,1))
