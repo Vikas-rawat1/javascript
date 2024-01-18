@@ -204,3 +204,16 @@
 // console.log(somethingReturn('is very Unique'))
 // console.log(somethingReturn('Bob James'))
 // console.log(somethingReturn('is Good'))
+
+
+
+// IIFE 
+// ((name=prompt) =>{
+// console.log(`Hello ${name}`)
+// })(prompt("Enter your good name"));
+
+// ((name) => {
+//     console.log(`Hello ${name}`);
+//   })(prompt("Enter your name"));
+ 
+  
