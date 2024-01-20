@@ -262,7 +262,7 @@
 
 //⭐⭐ JavaScript has a logical operator &&. The && operator takes two boolean values, and returns true if both values are true.
 
-// ARROW FUNCTION 
+// ARROW FUNCTION
 // check=(a,b)=>a&&b;
 
 //  function check(a,b){
@@ -288,12 +288,78 @@
 // console.log(football(5,0,2))
 // console.log(football(0,0,1))
 
+// MAKING A NAME GIVEN BY USER
 
-// MAKING A NAME GIVEN BY USER 
+// ( (name)=>{
+//     const askName=prompt("Enter your good name")
+//    console.log(`${askName}`)
+// })('vikas')
 
-( (name)=>{
-    const askName=prompt("Enter your good name")
-   console.log(`${askName}`)
-})('vikas')
+// ⭐⭐Create a function that takes three arguments prob, prize, pay and returns true if prob * prize > pay; otherwise return false.
 
+// function profitGamble(prob,prize,pay){
+//     return (prob*prize)>pay?true:false
+// }
 
+// console.log(profitGamble(1,2,3))
+// console.log(profitGamble(0.2,50,9))
+// console.log(profitGamble(0.9,1,2))
+// console.log(profitGamble(20,2,6))
+
+// ⭐⭐Create a function that returns the given argument, but by using an arrow function.
+
+// const givenNum = (num) => {
+//   return num;
+// };
+// console.log(givenNum("true"));
+
+//⭐⭐ Create a function that returns the number of frames shown in a given number
+// of minutes for a certain FPS.
+
+// function framesPerSecond(num1,num2){
+//     return (num1*60) *num2
+// }
+
+// console.log(framesPerSecond(10,25))
+// console.log(framesPerSecond(1,1))
+// console.log(framesPerSecond(10,1))
+
+//⭐⭐ Create a function that returns true if a string is empty and false otherwise.
+
+// function StringEmpty(result){
+//     return result===""?true:false
+// }
+
+// console.log(StringEmpty(""))
+// console.log(StringEmpty(" "))
+// console.log(StringEmpty("hello"))
+// console.log(StringEmpty())
+// console.log(StringEmpty(09)) following the octal 0-7 and it's a leading with 0
+
+//⭐⭐Emmy has written a function that returns a greeting to users. However, she's in love with Mubashir,
+// and would like to greet him slightly differently. She added a special case in her function, but she made a mistake.
+
+// function greeting(name) {
+
+//     if(name === "Mubashir") {
+//         return "Hello, my Love!";
+//     }
+//     return "Hello, " + name + "!";
+
+//   }
+
+//   console.log(greeting("Mubashir"))
+//   console.log(greeting("keeni"))
+
+// Create a function that takes a number as an argument.
+//  Add up all the numbers from 1 to the number you passed to the function.
+// For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
+
+function add(sumofAll) {
+  // return sumofAll
+  for (let i = 0; i <= sumofAll; i++) {
+    sumofAll++;
+  }
+  return sumofAll++;
+}
+console.log(add(4));
