@@ -287,3 +287,13 @@
 // console.log(football(3,4,2))
 // console.log(football(5,0,2))
 // console.log(football(0,0,1))
+
+
+// MAKING A NAME GIVEN BY USER 
+
+( (name)=>{
+    const askName=prompt("Enter your good name")
+   console.log(`${askName}`)
+})('vikas')
+
+
