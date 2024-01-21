@@ -71,6 +71,7 @@
 
 // console.log(map)
 
+// FOR OF LOOP 🧠🧠
 // [key,value] for accessing the value we have to destructure the array 
 // for(const [key,value] of map){
 //     console.log(key,':-',value)
@@ -91,9 +92,77 @@
 
 // OBJECT WITH FOR IN LOOP 
 
-const myObj={
-    js:'javascript',
-    ds:'data structure'
-}
+// const myObj={
+//     js:'javascript',
+//     ds:'data structure'
+// }
 
-for
+// for(const key in myObj){
+//     console.log(`${key} is shortcut for ${myObj[key]}`)
+// }
+
+// THIS WILL GIVE US NUMBER if we fetch it with variable name
+// const arr=["js","cpp"]
+// for(const newArr in arr){
+//     // console.log(newArr);--will give number 
+//     console.log(arr[newArr]);
+// }
+
+
+// FOR EACH LOOP 🧠🧠
+
+// const coding=["js","java","ruby"]
+
+// WITH ARROW FUNCTION 
+// coding.forEach(()=>{})
+
+// coding.forEach((value)=>{
+//     console.log(value)
+// })
+
+// WITH NORMAL FUNCTION 
+// coding.forEach( function (){})
+
+// coding.forEach( function (item){
+//     console.log(item)
+// })
+
+
+// with refrence anywhere accesible 
+
+// const lan=["js","cpp"]
+// function printMe(item){
+//     console.log(item)
+// }
+// do declare its reference not the function execution 
+// lan.forEach(printMe)
+
+// const lan=["js","cpp"]
+// // It not only consist items but also contain the index and array 
+// function printMe(item,index,arr){
+//     console.log(item,index,arr)
+// }
+// // do declare its reference not the function execution 
+// lan.forEach(printMe)
+
+
+
+const myCoding=[
+    {
+        js:"javascript",
+        ds:"dataStructure1"
+    },
+    {
+        js:"javascript",
+        ds:"dataStructure2"
+    },
+    {
+        js:"javascript",
+        ds:"dataStructure3"
+    },
+]
+
+myCoding.forEach((item)=>{
+    // console.log(item.ds)
+    console.log(myCoding);
+})
