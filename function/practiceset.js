@@ -355,11 +355,9 @@
 //  Add up all the numbers from 1 to the number you passed to the function.
 // For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
 
-function add(sumofAll) {
-  // return sumofAll
-  for (let i = 0; i <= sumofAll; i++) {
-    sumofAll++;
-  }
-  return sumofAll++;
-}
-console.log(add(4));
+
+// function add(sumofAll) {
+//  return (sumofAll*(sumofAll+1))/2
+// }
+// console.log(add(4));
+// console.log(add(13));
