@@ -67,29 +67,29 @@
 // AND OPERATOR (&& OPERATOR ):- IF both condition is true than it will return true else it will return false 
 // We can also define in multiple value 
 
-// const userloggedin=true;
-// const debitCard=true;
+const userloggedin=true;
+const debitCard=true;
 
-// if(userloggedin && debitCard ){
-//     console.log("Allow Access")
-// }
-// else{
-//     console.log("Please Select Other Option")
-// }
+if(userloggedin && debitCard ){
+    // console.log("Allow Access")
+}
+else{
+    // console.log("Please Select Other Option")
+}
 
 // OR OPERATOR (||):-If one of the condition will be true it will return the true statement 
 // One of the condition should be True and if the both condition will be false it will return the fale statement 
 // We can also define in multiple value 
 
-// const loggedInGoogle =false;
-// const loggedInEmail = true;
+const loggedInGoogle =true;
+const loggedInEmail = false;
 
-// if(loggedInGoogle || loggedInEmail){
-//     console.log("Allow Access ")
-// }
-// else{
-//     console.log("You are not registered")
-// }
+if(loggedInGoogle || loggedInEmail){
+    // console.log("Allow Access ")
+}
+else{
+    // console.log("You are not registered")
+}
 
 // ⭐⭐NULLISH COALESCING OPERATOR (??): based on NULL ,UNDEFINED
 
@@ -108,7 +108,7 @@
 const ice=1009
 const price=ice>100?"Do not for sale":"You can use it"
 
-console.log(price)
+// console.log(price)
 // SWITCH 
 
 // let num=3
@@ -152,15 +152,15 @@ console.log(price)
 // false==0, false=='',0==''
 
 // const emptyObj={key:8}
-// const emptyObj={}
+const emptyObj={}
 
-// // if (Object.keys(emptyObj).length) {
-// if (Object.keys(emptyObj)) {
+// if (Object.keys(emptyObj).length) {
+if (Object.keys(emptyObj)) {
     
-//     // console.log("Object is not  empty")
-//     console.log("Object is empty")
-// }
-// else{
-//     // console.log("Object is empty")
-//     console.log("Object is not empty")
-// }
+    // console.log("Object is not  empty")
+    console.log("Object is empty")
+}
+else{
+    // console.log("Object is empty")
+    console.log("Object is not empty")
+}
