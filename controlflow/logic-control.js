@@ -85,10 +85,10 @@ const loggedInGoogle =true;
 const loggedInEmail = false;
 
 if(loggedInGoogle || loggedInEmail){
-    // console.log("Allow Access ")
+    console.log("Allow Access ")
 }
 else{
-    // console.log("You are not registered")
+    console.log("You are not registered")
 }
 
 // ⭐⭐NULLISH COALESCING OPERATOR (??): based on NULL ,UNDEFINED

@@ -164,5 +164,41 @@ const myCoding=[
 
 myCoding.forEach((item)=>{
     // console.log(item.ds)
-    console.log(myCoding);
+    // console.log(myCoding);
 })
+
+
+// FILTER MAP AND REDUCE 
+
+// Let understand this with num example 
+// const coding=["JS","C","C++","JAVA"]
+
+// coding.forEach((item)=>{
+//     console.log(item)
+// })
+
+let num=[1,2,3,4,5,6,7,8,9,10]
+
+// FILTER ALSO TAKE A CALLBACK INSIDE IT ( (THIS IS CALLBACK) )
+// let Newnum=num.filter((callback)=>condition given )
+// let Newnum=num.filter((getnum)=>getnum>4)
+// console.log(Newnum)
+
+
+// const Newnum=num.filter((getnum)=>{
+//     // if we will not write a return it will give us a blank array explicit return 
+//     return getnum>4
+// })
+
+// with for each 
+
+const Newnum=[];
+
+num.forEach((number)=>{
+if(number>4){
+    Newnum.push(number)
+}
+
+})
+
+console.log(Newnum)
